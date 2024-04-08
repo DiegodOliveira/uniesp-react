@@ -15,3 +15,5 @@ const Aluno2 = ({nome, email, curso, media, status}) => {
 }
 
 export default Aluno2
+
+//Correção

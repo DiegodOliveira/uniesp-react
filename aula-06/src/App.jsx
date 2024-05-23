@@ -10,15 +10,19 @@ const App = () => {
   return (
     
     <BrowserRouter>
-      <img src='uniesp.png' width={50} height={50}/>
-      <Navbar/>
+      <div className='navbar-container'>
+        <img src='uniesp.png' width={50} height={50}/>
+        <Navbar/>
+      </div>
       <h1>Título da página</h1>
-      <Routes>
-        <Route path='/' element={<Inicial/>} />
-        <Route path='/a-faculdade' element={<Afaculdade/>} />
-        <Route path='/noticias' element={<Noticias/>} />
-        <Route path='/dpo-lgpd' element={<DpoLgpd/>} />
-      </Routes>
+      <div className="routes-container">
+        <Routes>
+            <Route path='/' element={<Inicial/>} />
+            <Route path='/a-faculdade' element={<Afaculdade/>} />
+            <Route path='/noticias' element={<Noticias/>} />
+            <Route path='/dpo-lgpd' element={<DpoLgpd/>} />
+        </Routes>
+      </div>
     </BrowserRouter>
   )
 }

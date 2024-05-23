@@ -47,3 +47,7 @@ h1 {
 .navbar-container a:hover {
   background-color: #CC0000; /* Vermelho mais escuro ao passar o mouse */
 }
+
+li{
+  list-style: none;
+}

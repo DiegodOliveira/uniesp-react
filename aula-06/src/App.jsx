@@ -5,6 +5,7 @@ import Noticias from './pages/Noticias'
 import DpoLgpd from './pages/DpoLgpd'
 import Inicial from './pages/Inicial'
 import Navbar from './components/Navbar'
+import VisualizaNoticia from './pages/VisualizaNoticia'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path='/a-faculdade' element={<Afaculdade/>} />
             <Route path='/noticias' element={<Noticias/>} />
             <Route path='/dpo-lgpd' element={<DpoLgpd/>} />
+            <Route path='/visualiza-noticia/:id' element={<VisualizaNoticia/>} />
         </Routes>
       </div>
     </BrowserRouter>

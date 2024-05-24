@@ -5,11 +5,10 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Estilização da barra de navegação */
 .navbar-container {
   display: flex;
   align-items: center;
-  background-color: #E11922; /* Fundo vermelho */
+  background-color: #E11922; 
   padding: 10px;
   height: 8vh;
 }
@@ -23,21 +22,18 @@ nav{
   align-content: space-between;
 }
 
-/* Estilização do título da página */
 h1 {
   color: #333;
   text-align: center;
   margin-top: 20px;
 }
 
-/* Estilização do container das rotas */
 .routes-container {
   padding: 20px;
 }
 
-/* Estilização dos links da navbar */
 .navbar-container a {
-  color: white; /* Cor do texto branco */
+  color: white; 
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -45,7 +41,7 @@ h1 {
 }
 
 .navbar-container a:hover {
-  background-color: #CC0000; /* Vermelho mais escuro ao passar o mouse */
+  background-color: #CC0000; 
 }
 
 li{

@@ -2,7 +2,10 @@ import React from 'react'
 
 const DpoLgpd = () => {
   return (
-    <div>DpoLgpd</div>
+    <div>
+      <h1>Dpo Lgpd</h1>
+      DpoLgpd
+      </div>
   )
 }
 

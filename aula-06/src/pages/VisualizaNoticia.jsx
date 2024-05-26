@@ -18,14 +18,16 @@ const VisualizaNoticia = () => {
           setVisualizaNoticia(data)
         }
         fetchData()
-      }, [])
+      }, [id])
 
   return (
-    <div>
-        <h2>{visualizaNoticia.titulo}</h2>
-        <h3>{visualizaNoticia.subtitulo}</h3>
-        <p>{visualizaNoticia.texto}</p>
-    </div>
+    <Box sx={{ p: 4 }}>
+      <Paper elevation={3} sx={{ p: 3 }}>
+        <Typography variant="h4" gutterBottom>{visualizaNoticia.titulo}</Typography>
+        <Typography variant="h6" gutterBottom>{visualizaNoticia.subtitulo}</Typography>
+        <Typography variant="body1">{visualizaNoticia.texto}</Typography>
+      </Paper>
+    </Box>
   )
 }
 

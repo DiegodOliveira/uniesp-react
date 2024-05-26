@@ -2,7 +2,10 @@ import React from 'react'
 
 const Afaculdade = () => {
   return (
-    <div>Afaculdade</div>
+    <div>
+      <h1>Sobre a Faculdade</h1>
+      Afaculdade
+    </div>
   )
 }
 

@@ -7,6 +7,8 @@ import Navbar from './components/Navbar'
 import VisualizaNoticia from './pages/VisualizaNoticia'
 import NoticiasAxios from './pages/NoticiasAxios'
 import AdminNoticias from './pages/admin/AdminNoticias'
+import CadastrarNoticias from './pages/admin/CadastrarNoticias'
+import EditarNoticia from './pages/admin/EditarNoticia'
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
             <Route path='/dpo-lgpd' element={<DpoLgpd/>} />
             <Route path='/visualiza-noticia/:id' element={<VisualizaNoticia/>} />
             <Route path='/admin-noticias' element={<AdminNoticias/>}/>
+            <Route path='/cadastrar-noticia' element={<CadastrarNoticias/>}/>
+            <Route path="/editar-noticia/:id" element={<EditarNoticia />} />  
         </Routes>
       </div>
     </BrowserRouter>
